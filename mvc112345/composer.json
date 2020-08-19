@@ -1,0 +1,18 @@
+{
+    "description": "Celke Projeto MVC",
+    "authors": [
+        {
+            "name": "Cesar Szpak",
+            "email": "cesar@celke.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "App\\": "app",
+            "Core\\": "core"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
